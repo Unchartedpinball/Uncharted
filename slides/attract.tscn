@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://s3ktvn5c638v"]
+
+[ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_r1mnt"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_r1mnt"]
+font_size = 75
+outline_size = 9
+
+[node name="Attract" type="Control" unique_id=1113123722]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_r1mnt")
+metadata/_custom_type_script = "uid://dru3usokwlhd3"
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=838421812]
+layout_mode = 0
+offset_right = 1280.0
+offset_bottom = 390.0
+rotation = 0.0005657207
+color = Color(0.09803922, 0.07058824, 1, 1)
+
+[node name="Label" type="Label" parent="." unique_id=320455144]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+rotation = -0.00014207908
+text = "UNCHARTED PINBALL"
+label_settings = SubResource("LabelSettings_r1mnt")
+horizontal_alignment = 3
+vertical_alignment = 1
+
+[node name="Label" type="Label" parent="Label" unique_id=1964826131]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+horizontal_alignment = 1
+vertical_alignment = 1
